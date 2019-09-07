@@ -1,0 +1,20 @@
+/* ------------------------------------
+   About Me
+*/
+.about-me .container .col-md-4 {
+  background-size: cover;
+  background-image: url("./pic_8.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.col-md-8 {
+  padding-left: 100px;
+}
+
+.about-text-title {
+  font-size: 30px;
+  font-weight: bold;
+}

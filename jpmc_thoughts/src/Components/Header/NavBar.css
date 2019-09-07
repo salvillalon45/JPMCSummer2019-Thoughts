@@ -1,0 +1,30 @@
+/* ------------------------------------
+   Navigation
+*/
+/* Do this if you want to change the color of the navbar */
+.navbar.bg-dark {
+  background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* This will insert a space of height 75px before every id:
+   https://github.com/twbs/bootstrap/issues/1768 check the solution from @mnot
+*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+header {
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  color: red;
+}

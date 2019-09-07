@@ -1,0 +1,22 @@
+/* ------------------------------------
+   The Project
+*/
+.TheProject {
+  margin-top: 100px;
+}
+
+.row.extra-row {
+  margin-top: 20px;
+}
+
+/* This is css for spock img since I needed to only reduce the size of this image */
+.row.extra-row.spock img {
+  height: 100px;
+  width: 450px;
+}
+
+.pics img {
+  display: block;
+  height: 150px;
+  margin: auto;
+}

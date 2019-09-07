@@ -1,0 +1,33 @@
+/* footer {
+  margin-top: 100px;
+  padding-left: 25px;
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+} */
+
+/* ------------------------------------
+   Footer
+*/
+footer {
+  display: flex;
+  height: 60px;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  align-items: center;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.footer ul {
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline;
+}
