@@ -8,6 +8,10 @@ import { Intro } from "../Intro/Intro.js";
 import { TheProject } from "../TheProject/TheProject.js";
 import { Challenges } from "../ChallengesFromProject/Challenges.js";
 import { Part1 } from "../LessonsLearned/part1.js";
+import { Part2 } from "../LessonsLearned/part2.js";
+import { Part3 } from "../LessonsLearned/part3.js";
+import { Part4 } from "../LessonsLearned/part4.js";
+import { Conclusion } from "../Conclusion/Conclusion.js";
 
 class App extends React.Component {
   render() {
@@ -20,6 +24,10 @@ class App extends React.Component {
           <TheProject />
           <Challenges />
           <Part1 />
+          <Part2 />
+          <Part3 />
+          <Part4 />
+          <Conclusion />
           <Footer />
         </div>
       </Router>

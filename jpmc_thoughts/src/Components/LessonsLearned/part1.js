@@ -6,7 +6,6 @@ export class Part1 extends React.Component {
     return (
       <div className="Part1" id="part1">
         <div className="container">
-
           <div className="row">
             <div className="col-md-12">
               <div className="title">
