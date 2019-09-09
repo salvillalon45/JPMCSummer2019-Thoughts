@@ -33,7 +33,6 @@
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -48,8 +47,12 @@
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  /* width: 80%; */
+  /* max-width: 700px; */
+}
+
+.modal-content img {
+  max-width: 1000px;
 }
 
 /* Caption of Modal Image */
@@ -84,7 +87,7 @@
 
 /* The Close Button */
 .close {
-  
+
   color: white;
   font-size: 90px;
   font-weight: bold;
@@ -103,4 +106,15 @@
   .modal-content {
     width: 100%;
   }
+}
+
+.btn-primary {
+  color: red;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  border-color: white;
+  background-color: white;
 }
