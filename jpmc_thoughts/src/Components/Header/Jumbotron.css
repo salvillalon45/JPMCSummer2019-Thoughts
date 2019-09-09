@@ -10,3 +10,7 @@
   padding-bottom: 5rem;
   color: white;
 }
+
+.jumbotron {
+  font-family: 'PT Mono', monospace;
+}

@@ -27,35 +27,35 @@ export class TheProject extends React.Component {
 
             <div className="row pics">
               <div className="col-md-4">
-                <img src={ springBoot } />
+                <img src={ springBoot } alt="Spring Boot" />
               </div>
 
               <div className="col-md-4">
-                <img src={ groovy } />
+                <img src={ groovy } alt="Groovy" />
               </div>
 
               <div className="col-md-4">
-                <img src={ react } />
+                <img src={ react } alt="React" />
               </div>
             </div>
 
             <div className="row pics extra-row">
               <div className="col-md-4">
-                <img src={ intellij } />
+                <img src={ intellij } alt="IntelliJ" />
               </div>
 
               <div className="col-md-4">
-                <img src={ js } />
+                <img src={ js } alt="JavaScript" />
               </div>
 
               <div className="col-md-4">
-                <img src={ gradle } />
+                <img src={ gradle } alt="Gradle" />
               </div>
             </div>
 
             <div className="row pics extra-row spock">
               <div className="col-md-12">
-                <img src={ spock } />
+                <img src={ spock } alt="Spock" />
               </div>
             </div>
           </div>

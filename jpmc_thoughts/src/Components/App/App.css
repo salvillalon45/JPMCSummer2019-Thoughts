@@ -2,5 +2,9 @@
    Body
 */
 body {
-  /* font-family: 'PT Mono', monospace; */
+  font-family: 'Merriweather', serif;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
 }

@@ -1,6 +1,7 @@
 /* ------------------------------------
    Navigation
 */
+
 /* Do this if you want to change the color of the navbar */
 .navbar.bg-dark {
   background-color: black !important;
@@ -22,9 +23,5 @@
 }
 
 header {
-  display: block;
-  background-color: black;
-  width: 100%;
-  height: 50px;
-  color: red;
+  font-family: 'PT Mono', monospace;
 }

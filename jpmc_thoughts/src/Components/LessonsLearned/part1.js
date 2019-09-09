@@ -4,7 +4,7 @@ import "./part1.css";
 export class Part1 extends React.Component {
   render() {
     return (
-      <div className="Part1" id="part1">
+      <div className="Part1" id="lessonsLearned">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
